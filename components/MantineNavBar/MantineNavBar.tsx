@@ -29,15 +29,13 @@ export const MantineNavBar = () => {
             </Text>
           </Group>
         }
-        // Mantine discord server
-        chatLink="https://discord.com/invite/wbH82zuWMN"
-        projectLink="https://github.com/gfazioli/next-app-nextra-template"
+        projectLink="https://github.com/dgaliata/security-program-builder/tree/main"
       >
         <>
           <ColorSchemeControl />
           <iframe
-            src="https://github.com/sponsors/gfazioli/button"
-            title="Sponsor gfazioli"
+            src="https://github.com/sponsors/dgaliata/button"
+            title="Sponsor dgaliata"
             height="32"
             width="114"
             style={{ border: 0, borderRadius: '6px' }}
