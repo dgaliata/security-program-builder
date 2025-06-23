@@ -29,11 +29,8 @@ export function Welcome() {
         </TextAnimate>
       </Title>
 
-      <Text c="dimmed" ta="center" size="xl" maw={580} mx="auto" mt="sm">
-        This starter Next.js project includes a minimal setup for server side rendering, if you want
-        to learn more on Mantine + Next.js integration follow{' '}
-        <Anchor href="https://mantine.dev/guides/next/">this guide</Anchor>. To get started edit{' '}
-        <Code fz="xl">page.tsx</Code> file.
+      <Text c="dimmed" ta="center" size="xl" maw={680} mx="auto" mt="sm">
+        The Security Program Builder offers a complete framework for organizations developing security programs in the AI era. Combining proven cybersecurity practices with emerging AI security controls, this playbook provides actionable guidance across governance, privacy, risk management, and compliance. Based on authoritative sources and community contributions, start building your security program today.
       </Text>
 
       <Center>
