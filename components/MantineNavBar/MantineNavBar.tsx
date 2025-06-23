@@ -33,13 +33,6 @@ export const MantineNavBar = () => {
       >
         <>
           <ColorSchemeControl />
-          <iframe
-            src="https://github.com/sponsors/dgaliata/button"
-            title="Sponsor dgaliata"
-            height="32"
-            width="114"
-            style={{ border: 0, borderRadius: '6px' }}
-          />
         </>
       </Navbar>
     </>
