@@ -25,7 +25,7 @@ export const MantineNavBar = () => {
           <Group align="center" gap={4}>
             <Logo />
             <Text size="lg" fw={800} c="blue" visibleFrom="xl">
-              The Next Mantine Docs Builder
+              The Security Program Builder
             </Text>
           </Group>
         }
