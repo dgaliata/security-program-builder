@@ -10,7 +10,7 @@ export function Welcome() {
   return (
     <>
       <Title maw="90vw" mx="auto" className={classes.title} ta="center" mt={100}>
-        Welcome to Mantine Next.js +
+        Welcome to the Cybersecurity Program
         <TextAnimate
           animate="in"
           by="character"
@@ -25,7 +25,7 @@ export function Welcome() {
           }}
           gradient={{ from: 'pink', to: 'yellow' }}
         >
-          Nextra template
+          Builder Project
         </TextAnimate>
       </Title>
 

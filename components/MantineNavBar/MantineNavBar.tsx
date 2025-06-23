@@ -25,7 +25,7 @@ export const MantineNavBar = () => {
           <Group align="center" gap={4}>
             <Logo />
             <Text size="lg" fw={800} c="blue" visibleFrom="xl">
-              The Security Program Builder
+              The Cybersecurity Program Builder
             </Text>
           </Group>
         }
@@ -33,6 +33,13 @@ export const MantineNavBar = () => {
       >
         <>
           <ColorSchemeControl />
+          <iframe
+            src="https://github.com/sponsors/gfazioli/button"
+            title="Sponsor gfazioli"
+            height="32"
+            width="114"
+            style={{ border: 0, borderRadius: '6px' }}
+          />
         </>
       </Navbar>
     </>
