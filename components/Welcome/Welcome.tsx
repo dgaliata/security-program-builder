@@ -30,9 +30,7 @@ export function Welcome() {
       </Title>
 
       <Text c="dimmed" ta="center" size="xl" maw={680} mx="auto" mt="sm">
-        When I first got into cybersecurity and had to build a security program from scratch, I didn't know where to start. That's why I started this project to document and share what I've learned.
-        
-        The Cybersecurity Program Builder offers a framework for organizations developing security programs in the AI era. Combining proven cybersecurity practices with emerging AI security controls, this playbook provides actionable guidance across governance, privacy, risk management, and compliance. With this playbook you can start building your security program today!
+        When I began my journey in cybersecurity, building a security program from scratch felt overwhelming. That's why I created the Cybersecurity Program Builder, to share practical guidance and lessons learned. This playbook combines proven cybersecurity practices with new AI-focused controls, offering a framework for organizations developing security programs today. Use it to get started on governance, privacy, risk management, and compliance in the AI era.
       </Text>
 
       <Center>
