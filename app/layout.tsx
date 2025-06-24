@@ -35,6 +35,7 @@ export default async function RootLayout({ children }: { children: any }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         />
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="5dc926da-5608-4428-83d0-0ad0114f8bbd"></script>
       </Head>
       <body>
         <MantineProvider theme={theme} defaultColorScheme={head.mantine.defaultColorScheme}>
