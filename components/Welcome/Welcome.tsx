@@ -30,7 +30,7 @@ export function Welcome() {
       </Title>
 
       <Text c="dimmed" ta="center" size="xl" maw={680} mx="auto" mt="sm">
-        When I began my journey in cybersecurity, building a security program from scratch felt overwhelming. That's why I created the Cybersecurity Program Builder, to share practical guidance and lessons learned. This playbook combines proven cybersecurity practices with new AI-focused controls, offering a framework for organizations developing security programs today. Use it to get started on governance, privacy, risk management, and compliance in the AI era.
+        When I began my journey in cybersecurity, building a security program from scratch felt overwhelming. That's why I created the Cybersecurity Program Builder, to share practical guidance and lessons learned. This projectcombines proven cybersecurity practices with new AI-focused controls, offering a framework for organizations developing security programs today. Use it to get started on governance, privacy, risk management, and compliance in the AI era.
       </Text>
 
       <Center>
