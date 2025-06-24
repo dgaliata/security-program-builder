@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <Container mih="calc(100vh - 328px)">
       <Welcome />
-      <Content />
+      {/* <Content /> */}
     </Container>
   );
 }
