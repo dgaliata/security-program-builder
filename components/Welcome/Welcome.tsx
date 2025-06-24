@@ -37,18 +37,17 @@ export function Welcome() {
 
       <Center>
         <Button
-          href="https://github.com/gfazioli/next-app-nextra-template"
+          href="/docs"
           component="a"
           rightSection={<IconExternalLink />}
-          leftSection={<IconBrandGithub />}
-          variant="outline"
+          variant="filled"
           px={32}
           radius={256}
           size="lg"
           mx="auto"
           mt="xl"
         >
-          Use template v{pack.version}
+          Get Started
         </Button>
       </Center>
 
@@ -62,11 +61,16 @@ export function Welcome() {
           delay={100}
           loop={false}
           value={[
-            'Dependencies :',
-            ...Object.keys(pack.dependencies).map(
-              (key: string) =>
-                `${key} : ${pack.dependencies[key as keyof typeof pack.dependencies].toString()}`
-            ),
+            '$ security-program-builder --init',
+            '> Initializing security framework...',
+            '> Loading NIST AI RMF controls... ✓',
+            '> Loading ISO 27001 controls... ✓',
+            '> Loading OWASP AI Top 10... ✓',
+            '> Generating governance policies... ✓',
+            '> Setting up AI security controls... ✓',
+            '> Framework ready! Run --help for commands',
+            '$ security-program-builder --status',
+            '> Status: Ready to build secure systems ✓✓✓ ',
           ]}
         />
       </Paper>
