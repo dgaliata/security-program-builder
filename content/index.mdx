@@ -4,69 +4,76 @@ import { FileTreeLabel } from '@/components/FileTreeLabel'
 
 # Introduction
 
-Hello, world!
-Welcome to the Nextra + Mantine template.
+## Why This Playbook Exists
 
-This is a starter template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/) + [Nextra](https://nextra.site/) documentation site.
+When I first got into cybersecurity one thing I struggled with was how to build an entire program from scratch. I didn't know where to start. The landscape was overwhelming, dozens of frameworks, hundreds of controls, and rapidly growing advancements such as AI.
 
-## Features
+That's why I started this project: to document and share what I've learned about building well rounded, vendor agnostic security programs that work in today's AI driven world.
 
-This template comes with the following features:
+## What This Playbook Provides
 
-- [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Jest](https://jestjs.io/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
-- Provides API example in `/api/version`
+The **Cybersecurity Program Builder** offers a framework for organizations developing security programs in the AI era. It combines proven cybersecurity practices with emerging AI security controls, providing actionable guidance across governance, privacy, risk management, and compliance.
 
-## Nextra Features
+This playbook integrates:
+- **Traditional Security Controls** based on industry standards (NIST, ISO, OWASP)
+- **AI-Specific Security Requirements** for modern ML/AI systems
+- **DevOps Integration** with infrastructure-as-code and automation
+- **Practical Implementation Guidance** with templates and examples
 
-- [Nextra](https://nextra.site/) documentation site with Mantine theme
-- Sync Dark mode between documentation and application (Mantine/Nextra)
-- Customizable components in `components` folder
-- Provides new Navigation and Footer components for Nextra documentation site
+<Callout type="info">
+This is a living document that evolves with the cybersecurity and AI security landscape. Community contributions help keep it current and comprehensive.
+</Callout>
 
-## Folder structure
+## Who This Is For
 
-You will find a lot of predefined folders and files in the project. Here is a short description of the most important ones:
+- **Security Leaders** building or enhancing security programs
+- **DevOps Engineers** implementing security-by-design practices
+- **AI/ML Teams** needing security guidance for AI systems
+- **Compliance Professionals** mapping controls to regulatory requirements
+- **Consultants** helping organizations improve their security posture
+
+## Playbook Structure
+
+This playbook is organized into comprehensive program areas that build upon each other:
 
 <FileTree>
-  <FileTree.Folder name="app" defaultOpen>
-      <FileTree.Folder name={<FileTreeLabel type="folder" name="api">Useful API</FileTreeLabel>} defaultOpen />
-          <FileTree.File name={<FileTreeLabel type="file" name="layout.tsx">Main layout</FileTreeLabel>} />
-      <FileTree.File name={<FileTreeLabel type="file" name="page.tsx">Homepage</FileTreeLabel>} />
+  <FileTree.Folder name="Getting Started" defaultOpen>
+    <FileTree.File name="Quick Start Guide" />
+    <FileTree.File name="Implementation Roadmap" />
   </FileTree.Folder>
-  <FileTree.Folder name={<FileTreeLabel type="folder" name="components">Useful components</FileTreeLabel>} defaultOpen />
-  <FileTree.Folder name="config" defaultOpen>
-    <FileTree.File name={<FileTreeLabel type="file" name="index.ts">Most of the config are here!</FileTreeLabel>} />
+  <FileTree.Folder name="Foundation Programs" defaultOpen>
+    <FileTree.File name="Governance Program" />
+    <FileTree.File name="Privacy Program" />
+    <FileTree.File name="Risk Management Program" />
   </FileTree.Folder>
-  <FileTree.Folder name={<FileTreeLabel type="folder" name="content">MDX docs</FileTreeLabel>} defaultOpen />
+  <FileTree.Folder name="Security Programs" defaultOpen>
+    <FileTree.File name="Security Program" />
+    <FileTree.File name="Security Measurement Program" />
+    <FileTree.File name="Vulnerability & Patch Management" />
+    <FileTree.File name="Security Architecture" />
+  </FileTree.Folder>
+  <FileTree.Folder name="Operations Programs" defaultOpen>
+    <FileTree.File name="Incident Management Program" />
+    <FileTree.File name="Disaster Recovery & BCP" />
+    <FileTree.File name="Vendor & Third-Party Risk Program" />
+  </FileTree.Folder>
+  <FileTree.Folder name="People Programs" defaultOpen>
+    <FileTree.File name="Security Awareness & Training" />
+  </FileTree.Folder>
+  <FileTree.Folder name="AI-Specific Programs" defaultOpen>
+    <FileTree.File name="AI Model Lifecycle Management" />
+    <FileTree.File name="Data Management for AI" />
+    <FileTree.File name="AI Compliance & Regulatory" />
+  </FileTree.Folder>
 </FileTree>
 
-You can start by changing the main configuration in `config/index.ts` file. This file contains the most important configuration for the project.
 
+<Callout type="warning">
+AI security is rapidly evolving. This project integrates the latest guidance from NIST AI RMF, ISO AI standards, and OWASP AI security projects, but organizations should stay current with emerging requirements.
+</Callout>
 
+## Getting Started
 
-## npm scripts
+Ready to build your security program? Start with the [Getting Started](/docs/getting-started) guide to understand implementation approaches, or jump directly to any program area that matches your current priorities.
 
-### Build and dev scripts
-
-- `dev` – start dev server
-- `build` – bundle application for production
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-
-### Testing scripts
-
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
-
-### Other scripts
-
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+Each section provides both foundational concepts and practical implementation guidance to help you build a robust, modern security program.
