@@ -54,7 +54,7 @@ export function Welcome() {
       <Paper shadow="xl" p={8} mih={300} my={32} bg="dark.9" mx="auto" radius={8}>
         <TextAnimate.Typewriter
           inherit
-          fz={11}
+          fz={14}
           c="green.5"
           ff="monospace"
           multiline
@@ -70,7 +70,7 @@ export function Welcome() {
             '> Setting up AI security controls... ✓',
             '> Framework ready! Run --help for commands',
             '$ security-program-builder --status',
-            '> Status: Ready to build secure systems ✓✓✓ ',
+            '> Status: Ready to build secure systems 🚀',
           ]}
         />
       </Paper>
