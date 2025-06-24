@@ -34,33 +34,55 @@ This is a living document that evolves with the cybersecurity and AI security la
 
 ## Project Structure
 
-This project covers the following comprehensive program areas:
+This project is organized as follows:
 
-### **Foundation Programs**
-- **[Governance Program](/governance-program)** - Organizational governance structures for cybersecurity and AI risk management
-- **[Privacy Program](/privacy-program)** - Privacy protection framework covering traditional data handling and AI-specific privacy
-- **[Risk Management Program](/risk-management-program)** - Systematic approach to identifying, assessing, and mitigating risks
-
-### **Core Security Programs**
-- **[Security Program](/security-program)** - Comprehensive cybersecurity controls for traditional IT and AI systems
-- **[Security Measurement Program](/security-measurement-program)** - Metrics and monitoring framework for security effectiveness
-- **[Vulnerability & Patch Management](/vulnerability-patch-management)** - Systematic vulnerability identification and remediation
-- **[Security Architecture](/security-architecture)** - Design patterns and architectural principles for secure systems
-
-### **Operations Programs**
-- **[Incident Management Program](/incident-management-program)** - Structured approach to detecting and responding to incidents
-- **[Disaster Recovery & BCP](/disaster-recovery-bcp)** - Comprehensive planning for maintaining operations during disruptions
-- **[Vendor & Third-Party Risk Program](/vendor-third-party-risk)** - Risk management for third-party relationships
-
-### **People Programs**
-- **[Security Awareness & Training](/security-awareness-training)** - Comprehensive security education program
-
-### **AI-Specific Programs**
-- **[AI Model Lifecycle Management](/ai-model-lifecycle-management)** - Security framework for AI model development, deployment, and retirement
-- **[Data Management for AI](/data-management-ai)** - Data governance framework specifically designed for AI systems
-- **[AI Compliance & Regulatory](/ai-compliance-regulatory)** - Compliance framework addressing emerging AI regulations
-
-## Program Integration Approach
+<FileTree>
+  <FileTree.Folder name="content" defaultOpen>
+    <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">Introduction</FileTreeLabel>} />
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="governance-program">Organizational governance structures</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">Governance policies and AI ethics</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="privacy-program">Privacy protection framework</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">Data privacy and AI bias monitoring</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="risk-management-program">Risk identification and mitigation</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">AI threat modeling and risk controls</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="security-program">Core security controls</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">Traditional and AI security controls</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="security-measurement-program">Security metrics and monitoring</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">KPIs and AI performance monitoring</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="vulnerability-patch-management">Vulnerability management</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">Patching and AI library scanning</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="security-architecture">Design patterns and principles</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">Secure AI architecture patterns</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="incident-management-program">Incident response procedures</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">AI-specific incident response</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="disaster-recovery-bcp">Business continuity planning</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">AI service continuity and model recovery</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="vendor-third-party-risk">Third-party risk management</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">AI vendor assessment and monitoring</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="security-awareness-training">Security education program</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">AI ethics and security training</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="ai-model-lifecycle-management">AI model security framework</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">Model development to retirement</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="data-management-ai">AI data governance</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">Training data and feature store security</FileTreeLabel>} />
+    </FileTree.Folder>
+    <FileTree.Folder name={<FileTreeLabel type="folder" name="ai-compliance-regulatory">AI compliance framework</FileTreeLabel>} defaultOpen>
+      <FileTree.File name={<FileTreeLabel type="file" name="index.mdx">EU AI Act and regulatory requirements</FileTreeLabel>} />
+    </FileTree.Folder>
+  </FileTree.Folder>
+</FileTree>
 
 
 <Callout type="warning">
@@ -69,11 +91,11 @@ AI security is rapidly evolving. This project integrates the latest guidance fro
 
 ## Getting Started
 
-Ready to build your security program? Each program area builds upon the others, but you can start with any section that matches your current priorities.
+Ready to build your security program? Each program area builds upon the others, but you can start with any section that matches your current priorities using the navigation menu.
 
 **Recommended Starting Points:**
-- **New to security programs?** Start with [Governance Program](/governance-program)
-- **Existing security program?** Jump to [AI-specific programs](/ai-model-lifecycle-management)
+- **New to security programs?** Start with the Governance Program
+- **Existing security program?** Jump to the AI-specific programs  
 - **DevOps focused?** Explore the DevOps integration sections in each program area
 
-Each section provides foundational concepts, practical implementation guidance, and ready-to-use templates to help you build a robust, modern security program.
+Each section provides foundational concepts, practical implementation guidance, and ready to use templates to help you build a robust, modern security program.
