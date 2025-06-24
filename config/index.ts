@@ -5,11 +5,11 @@ export default {
    */
   metadata: {
     title: {
-      default: 'Mantine Next.js and Nextra template',
+      default: 'The Cybersecurity Program Builder',
       template: '%s | Mantine Next.js and Nextra template',
     },
-    description: 'I am using Mantine with Next.js and Nextra!',
-    metadataBase: new URL('https://next-app-nextra-template.vercel.app/'),
+    description: 'The Cybersecurity Program Builder',
+    metadataBase: new URL('https://security-program-builder.vercel.app/'),
     keywords: [
       'Mantine',
       'Nextra',
